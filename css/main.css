@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5; /* Optional background color */
+}
+
+.container {
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container in the window */
+    padding-top: 60px; /* Adjust to match the height of the fixed navigation */
+    padding-bottom: 60px; /* Adjust to match the height of the fixed footer */
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #404040; /* Change the navigation color */
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0; /* Set left to 0 for full width */
+    z-index: 1000; /* Ensure the navigation is above other elements */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white; /* Change the link color */
+    text-decoration: none; /* Remove the underline */
+}
+
+header {
+    text-align: center;
+    padding: 1em;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px; /* Adjust the height as needed */
+    margin-top: 60px; /* Adjust to match the height of the fixed navigation */
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in total width/height */
+}
+
+.profile-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.social-media-card {
+    flex: 1; /* Occupy 1/4 of the row */
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.social-media-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media-links li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #404040;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0; /* Set left to 0 for full width */
+}

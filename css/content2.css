@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5; /* Optional background color */
+}
+
+nav {
+    background-color: #404040; /* Change the navigation color */
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0; /* Set left to 0 for full width */
+    z-index: 1000; /* Ensure the navigation is above other elements */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white; /* Change the link color */
+    text-decoration: none; /* Remove the underline */
+}
+
+header {
+    text-align: center;
+    padding: 1em;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.skill-column {
+    border-right: 1px solid #ddd; /* Add a border between columns */
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.skill-quote-column {
+    padding-left: 20px; /* Adjust as needed for space between columns */
+}
+
+.quote-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
